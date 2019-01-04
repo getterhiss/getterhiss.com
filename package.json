@@ -3,6 +3,19 @@
   "version": "1.0.0",
   "author": "Getter Started <getter@hiss.co>",
   "license": "MIT",
+  "scripts": {
+    "build": "gatsby build; npm run scrub-react-helmet",
+    "develop": "gatsby develop",
+    "devhost": "gatsby develop --host 192.168.0.112",
+    "clean": "rm -fr ./public && rm -fr ./.cache",
+    "deploy": "netlify deploy -d ./public -s '28f540cd-6da7-4472-875e-3d37cc2e0707' --prod",
+    "format": "prettier --write 'src/**/*.js'",
+    "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "stylelint": "stylelint src/**/*.js",
+    "app-icons": "sh ./scripts/generate-app-icons.sh",
+    "scrub-react-helmet": "grep -rl ' data-react-helmet=\"true\"' ./public | xargs sed -i '' 's/ data-react-helmet=\"true\"//g'"
+  },
   "dependencies": {
     "antd": "^3.7.0",
     "fontfaceobserver": "^2.0.13",
@@ -52,22 +65,6 @@
     "tinycolor2": "^1.4.1",
     "typeface-open-sans": "^0.0.54",
     "yaml-loader": "^0.5.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "build": "gatsby build; npm run scrub-react-helmet",
-    "develop": "gatsby develop",
-    "devhost": "gatsby develop --host 192.168.0.112",
-    "clean": "rm -fr ./public && rm -fr ./.cache",
-    "deploy": "netlify deploy -d ./public -s '28f540cd-6da7-4472-875e-3d37cc2e0707' --prod",
-    "format": "prettier --write 'src/**/*.js'",
-    "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
-    "lint": "eslint src/**/*.{js,jsx}",
-    "stylelint": "stylelint src/**/*.js",
-    "app-icons": "sh ./scripts/generate-app-icons.sh",
-    "scrub-react-helmet": "grep -rl ' data-react-helmet=\"true\"' ./public | xargs sed -i '' 's/ data-react-helmet=\"true\"//g'"
   },
   "devDependencies": {
     "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0",
