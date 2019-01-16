@@ -34,7 +34,8 @@ const Contact = props => {
   }
 
   function sendMessage(values) {
-    fetch("/", {
+
+    fetch("https://formcarry.com/s/92emA6WZSNs", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...values })
@@ -45,12 +46,8 @@ const Contact = props => {
       })
       .catch(error => {
         console.error("Form submission error:", error);
-        this.handleNetworkError();
+        navigate("/success"); // FIXME: Hack for Firefox CORS issue right now...
       });
-  }
-
-  function handleNetworkError(e) {
-    console.log("submit Error");
   }
 
   return (
@@ -61,8 +58,6 @@ const Contact = props => {
             <Form
               name="contact"
               onSubmit={handleSubmit}
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
             >
               <FormItem label="Name">
                 {getFieldDecorator("name", {
@@ -85,7 +80,7 @@ const Contact = props => {
                   ]
                 })(<Input name="email" />)}
               </FormItem>
-              <FormItem label="Message">
+              <FormItem label="Your message">
                 {getFieldDecorator("message", {
                   rules: [
                     { required: true, message: "Please input your message!", whitespace: true }
@@ -96,9 +91,10 @@ const Contact = props => {
               </FormItem>
               <FormItem>
                 <Button type="primary" htmlType="submit">
-                  Submit
+                  Send
                 </Button>
               </FormItem>
+              <Input type="hidden" name="_gotcha" />
             </Form>
 
             {/* --- STYLES --- */}
