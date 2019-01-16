@@ -3,8 +3,8 @@ module.exports = {
   shortSiteTitle: "Getter Hiss - Javascript Developer", // <title> ending for posts and pages
   siteDescription: "Getter Hiss is a Full Stack Javascript Developer",
   siteUrl: "https://getterhiss.com",
-  // pathPrefix: "",
-  siteImage: "preview.jpg",
+  pathPrefix: "/static",
+  siteImage: "hero-background.jpg",
   siteLanguage: "en",
 
   /* author */
