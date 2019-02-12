@@ -52,9 +52,9 @@ o
 
 1. **Name the function**
 2. **Mark the base case**
-2. **Define the default properties**
-3. **Do some work**
-4. **Self-call the function again**
+3. **Define the default properties**
+4. **Do some work**
+5. **Self-call the function again**
 
 ### Mark the Base Case
 After naming the function, the first thing to remember when writing any kind of repetitive code, is to make sure it doesn't end up running to infinity. With recursions, the base case defines the moment when the function returns a value and doesn't proceed to call itself again.
