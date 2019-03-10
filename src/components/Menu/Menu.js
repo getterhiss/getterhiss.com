@@ -2,8 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 require("core-js/fn/array/from");
 
-import { FaSearch } from "react-icons/fa/";
-
 import Item from "./Item";
 import Expand from "./Expand";
 
@@ -24,7 +22,6 @@ class Menu extends React.Component {
       ...pages,
       { to: "/category/", label: "Categories" },      
       { to: "/contact/", label: "Contact" },
-      { to: "/search/", label: "Search", icon: FaSearch },
     ];
 
     this.renderedItems = []; // will contain references to rendered DOM elements of menu
