@@ -6,8 +6,6 @@ author: getter hiss
 ---
 ![Getter](./medicine-to-tech-img.jpg "Getter")
 
-# From medicine to tech & why I love programming.
-
 As I started my website, the goal was to write mainly about programming, show my progress from "zero to hero", and as a showcase for job opportunities. But as my life is ever-changing, bending to the constant surprises in life, I now feel like there is so much more that should be manifested as articles to share.
 
 Some of you might know, that I made a big career change switching from medicine to tech, and some of you might know that I now live in the US (*as opposed to Estonia or traveling around the world*). I also applied to a prominent coding school, that I got accepted to, but decided not to attend after-all.

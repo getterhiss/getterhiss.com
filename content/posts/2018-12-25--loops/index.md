@@ -5,9 +5,6 @@ cover: loops-js.jpg
 author: getter hiss
 ---
 
-# Learning Algorithms & the ES6 `FOR` loop
-
-
 So here I am, geeking over something new I learned while doing my [Udemy course on Algorithms by Stephen Grider](https://www.udemy.com/coding-interview-bootcamp-algorithms-and-data-structure/).
 
 Besides just being the best resource out there to master algorithms, the teacher, Stephen, also shows you several different angles to approach a problem. It is especially great for anyone who's still respectively new to code, since you might learn methods you haven't been introduced to before.

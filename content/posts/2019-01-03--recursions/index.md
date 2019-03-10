@@ -6,8 +6,6 @@ author: getter hiss
 
 ---
 
-# Recursions in JavaScript
-
 Have you worked with recursions before? If not, here is my simple breakdown on what they are and how to use them.
 
 

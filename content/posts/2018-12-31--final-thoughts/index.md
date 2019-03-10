@@ -5,8 +5,6 @@ cover: final-thoughts.jpg
 author: getter hiss
 ---
 
-#Final thoughts to 2018 - questions to ask yourself before you say 'Goodbye'
-
 It is the last day of the year, which means if you are active in your online community or follow any blogs whatsoever, you have probably seen dozens of articles and social media posts about people's summaries of their past year - the new years resolutions kept and broken, the number of places travelled, books read, articles written, followers gained, business built and revenue gained. 
 
 All these things *(that reach the public)* contain superficial facts that only show the tip of the iceberg.
