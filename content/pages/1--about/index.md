@@ -4,7 +4,7 @@ title: About
 
 ![Getter](./getter.jpg "Getter")
 
-I am a Full Stack Developer Focusing on Javascript, React, Styled-Components, GatsbyJS, NextJS, React Native, NodeJS, ExpressJS, Postgres & MongoDB.
+I am a Full Stack Developer currently focusing on iOS & Android development with React Native and Expo, but also skilled at Javascript, React & NodeJS.
 
 I am originally from a tiny country in Northern Europe, called [Estonia](https://en.wikipedia.org/wiki/Estonia), but moved to the United States after getting married to my wonderful husband, Brian.
 
