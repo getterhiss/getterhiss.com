@@ -15,11 +15,11 @@ The last year has been crazy. And I think the hardest one yet. As from the outsi
 
 ### Overcoming the fear of letting everyone down.
 
-**The only person you should every worry letting down is You.**
+**The only person you should ever worry letting down is You.**
 
 In the beginning of last year, I decided to finish up with my medical studies. **The realization of following a path that was not aligned with *my* dreams and expectations of life hit me hard**. It was one of the toughest things I've done, but a decision I have not regretted even once.
 
-As people close to me know, I've gone through a few adventures in my life. From modeling for almost a decade, to taking time off after graduating high school to travel full time, to solo backpacking in Costa Rica and Thailand, going to University to study medicine, and taking a sabbatical to follow my heart (and my love).
+As people close to me know, I've gone through a few adventures in my life. From modeling for almost a decade, to taking time off after graduating high school to travel full time, to solo backpacking in Costa Rica and Thailand, going to University to study medicine, and taking a sabbatical to follow my heart (*and my love*).
 
 Sometimes I feel like everything I've done so far, every low point and every high, has taught and prepared me for this phase in my life now. Deciding to be an entrepreneur is deciding to take the much harder route. There is no security. The highs are higher, the lows are lower. **But you do it for the journey.**
 
@@ -41,32 +41,32 @@ After gaining my first experience being an entrepreneur, I got an itch. I really
 
 Picking up coding was pretty easy for me. I can say thanks to the logical thinking I've inherited from my parents, and the love for sciences throughout my adolescence.
 
-Learning to program still feels like something out of this world for me. I never thought I'd be a developer. Never in a million years! But here I am, building my first iOS and Android apps, *and they look amazing, by the way*.
+Learning to program still feels like something out of this world for me. I never thought I'd be a developer. Never in a million years! But here I am, building my first iOS and Android apps, *and they look amazing*, by the way.
 
-And it *feels* so good to be able to create something that can literally reach anyone in the world.
+And it *feels* so good to be able to create things that can literally reach anyone in the world.
 
 ### A laptop and WiFi is all you need.
 
-Learning programming is still such a mystery to most people out there. It's considered something really nerdy and difficult. But it really isn't. I find it such an useful skill as our life is more and more filled and affected by technology. It is a great way to apply logical thinking and gives a wonderful sense of achievement when creating something of your own. 
+Learning programming is still such a mystery to most people out there. It's considered really nerdy and difficult. But it really isn't. I find it such an useful skill as our life is more and more filled and affected by technology. It is a great way to apply logical thinking and gives a wonderful sense of achievement when creating something of your own. 
 
 All kids nowadays grow up with iPhones and tablets in their hands. Why not teach them some basic programming skills, so they have something better to do than games and social media that eat their brains?
 
 It's not widely understood, but programming isn't that dull and mechanical as it might sound. It takes a lot of creativity and design skills to make a clever user interface (UI) and create great user experience (UX).
 
-Many have proven that it isn't necessary to get an expensive degree to be able to get a job in big tech giants like Facebook, Google or Twitter. There are plenty of resources (*both, free and paid*) out there to learn. So, it's only up to the work anyone is ready to invest.
+Many have proven that it isn't necessary to get an expensive degree to be able to get a job in big tech giants like Facebook, Google or Twitter. There are plenty of resources (*both, free and paid*) out there to learn. So, it's only up to the work someone is ready to invest.
 
 I hope the stigma around programming slowly disappears. I hope tech becomes more approachable, as it is something that anyone can do with just a laptop and WiFi.
 
 
 ### The coding bootcamp phase
 
-Learning to code took me to a desire to apply for one of the best programming bootcamps out there. For a while, I thought I would feel more *real* if I went to a coding school and worked in one of the tech giants for a few years. So, I decided to apply to Fullstack Academy in NY. 
+Learning to code took me to the desire to apply for one of the best programming bootcamps out there. For a while, I thought I would feel more *real* if I went to a coding school and worked in one of the tech giants for a few years. So, I decided to apply to [Fullstack Academy](https://www.gracehopper.com/) in NY. 
 
 Their admissions process had 3 steps - the application, the online coding assessment of 6 algorithms, and a Skype interview with one of their teaching fellows.
 
-Even though I had already taken several online courses for programming previously, I took weeks to prepare for the admissions. My goal was not to simply try, but to get accepted. 
+Even though I had already taken several online courses for programming previously, I took weeks to prepare for the admissions. My goal was not to simply *try*, but to get accepted. 
 
-I prepared by working on my connections in the industry, writing articles, improving my social profiles, working on projects to improve my GitHub profile, spending over hundred hours solving algorithms and taking a few *hours* to fill in the application so it would reflect my skills and potential appropriately.
+I prepared by working on my connections in the industry, writing articles, improving my social profiles, working on projects to improve my [GitHub](https://github.com/getterhiss) profile, spending over hundred hours solving algorithms and taking a few *hours* to fill in the application so it would reflect my skills and potential appropriately.
 
 I applied, and got accepted with flying colors.
 
@@ -74,7 +74,7 @@ After taking time to recover from this experience, *which took place while movin
 
 ### The look back
 
-Looking back, it's been the crazies and hardest year, with a lot of sweat and too many tears. But I am happy to have learned what I have learned - 
+Looking back, it's been the craziest and hardest year, with a lot of sweat and too many tears. But I am happy to have learned what I have learned - 
 
 * I now know, *I mean really know*, there is no easy way to success.
 
