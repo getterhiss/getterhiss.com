@@ -1,16 +1,7 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
+/* 
+  https://tailwindcss.com/docs/guides/nextjs#include-tailwind-in-your-css 
+  FIX: https://stackoverflow.com/questions/47607602/how-to-add-a-tailwind-css-rule-to-css-checker
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

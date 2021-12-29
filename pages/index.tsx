@@ -9,7 +9,9 @@ const Home: NextPage = () => {
       </Head>
 
       <div>
-        <p>Getter Hiss</p>
+        <h1 className="text-3xl font-bold text-cyan-600">
+          Getter Hiss
+        </h1>
       </div>
       
     </>
