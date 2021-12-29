@@ -21,3 +21,20 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `npx tailwindcss init -p`
 - FIX: 
   - [@tailwind is flagged as unknown](https://stackoverflow.com/a/61333686)
+
+### Add Tailwind UI
+- [Documentation](https://tailwindui.com/documentation)
+- `npm install @headlessui/react @heroicons/react`
+
+### Added @tailwindcss/forms 
+- `npm install @tailwindcss/forms`
+```js
+// tailwind.config.js
+module.exports = {
+  // ...
+  plugins: [
+    // ...
+    require('@tailwindcss/forms'),
+  ],
+}
+```
