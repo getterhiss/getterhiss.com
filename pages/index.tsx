@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       </Head>
 
       <div>
-        <h1 className="text-3xl font-bold text-cyan-600">
+        <h1 className="text-4xl p-4 text-brand font-bold font-serif">
           Getter Hiss
         </h1>
       </div>
