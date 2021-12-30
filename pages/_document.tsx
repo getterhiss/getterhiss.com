@@ -21,7 +21,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="images/favicon.png" />
+          <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
           <link rel="preconnect" href="https://fonts.googleapis.com" /> 
           <link rel="preconnect" href="https://fonts.gstatic.com" /> 
           <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&amp;family=Spartan:wght@300;400&amp;display=swap" rel="stylesheet" />
