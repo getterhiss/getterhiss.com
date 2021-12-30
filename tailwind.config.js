@@ -15,7 +15,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        'brand': '#333333',
+        'brand': '#291854'
       },
       backgroundColor: {
         'desert': '#F9F5ED',
