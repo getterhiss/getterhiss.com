@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import Email from '../components/Email'
 
 const Home: NextPage = () => {
   return (

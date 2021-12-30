@@ -1,4 +1,4 @@
-const EmailInput = () => {
+const EmailForm = () => {
 
   // https://reactjs.org/docs/forms.html
   // https://github.com/tailwindlabs/tailwindcss-forms
@@ -40,4 +40,4 @@ const EmailInput = () => {
     </div>
   )
 }
-export default EmailInput;
+export default EmailForm;
