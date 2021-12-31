@@ -1,4 +1,4 @@
-import EmailAddress from './EmailAddress';
+import EmailAddress from 'components/EmailAddress';
 
 const NavBar = () => {
   return (
