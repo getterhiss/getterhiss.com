@@ -4,4 +4,9 @@
 */
 @tailwind base;
 @tailwind components;
+
+.link {
+  @apply flex font-sans lg:inline-block text-brand text-xs hover:text-purple-800;
+}
+
 @tailwind utilities;

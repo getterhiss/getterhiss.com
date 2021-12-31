@@ -12,6 +12,16 @@
       ]
     },
     {
+      "name": "@apply",
+      "description": "Use the `@apply` directive to extract custom classes in your project.",
+      "references": [
+        {
+          "name": "Tailwind Documentation",
+          "url": "https://tailwindcss.com/docs/reusing-styles#extracting-classes-with-apply"
+        }
+      ]
+    },
+    {
       "name": "@responsive",
       "description": "You can generate responsive variants of your own classes by wrapping their definitions in the `@responsive` directive:\n```css\n@responsive {\n  .alert {\n    background-color: #E53E3E;\n  }\n}\n```\n",
       "references": [
