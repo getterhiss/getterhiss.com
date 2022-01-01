@@ -6,10 +6,34 @@
 @tailwind components;
 
 .link {
-  @apply flex lg:inline-block text-brand text-xs md:text-sm hover:text-purple-800;
+  @apply flex lg:inline-block text-brand text-xs md:text-sm hover:text-indigo-700;
 }
 .h2 {
   @apply text-5xl font-serif mb-10 text-brand antialiased;
+}
+.h3 {
+  @apply tracking-widest text-brand mb-3 font-bold uppercase;
+}
+.h4 {
+  @apply text-brand font-bold pb-3 max-w-md;
+}
+.p {
+  @apply text-brand-light leading-7;
+}
+.section-title {
+  @apply text-xs tracking-widest mb-2 font-bold text-indigo-600 uppercase;
+}
+.subtitle {
+  @apply text-lg text-brand leading-8;
+}
+.grid-container {
+  @apply mt-10 space-y-10 md:grid md:grid-cols-2 md:space-y-0;
+}
+.question-border {
+  @apply border-b-2 border-b-neutral-200;
+}
+.answer {
+  @apply text-sm text-brand-light max-w-lg leading-6;
 }
 
 @tailwind utilities;
