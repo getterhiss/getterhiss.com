@@ -85,7 +85,12 @@ const Home: NextPage = () => {
                 TypeScript, Lottie, Twilio Video (WebRTC), React Error
                 Boundaries &amp; React Navigation.
               </p>
-              <a className="link text-indigo-600 underline pt-4" href="">
+              <a
+                className="link text-indigo-600 underline pt-4"
+                href="https://github.com/getterhiss/getter.dev"
+                rel="noreferrer"
+                target="_blank"
+              >
                 View more
               </a>
               {/* <div>[SVG ICONS]</div> */}
@@ -97,7 +102,12 @@ const Home: NextPage = () => {
                 rendered (SSR) React Application. Includes TypeScript, Tailwind
                 CSS and Google Web Fonts. The website is hosted on Vercel.
               </p>
-              <a className="link text-indigo-600 underline pt-4" href="">
+              <a
+                className="link text-indigo-600 underline pt-4"
+                href="https://github.com/getterhiss/getterhiss.com"
+                rel="noreferrer"
+                target="_blank"
+              >
                 View more
               </a>
               {/* <div>[SVG ICONS]</div> */}
