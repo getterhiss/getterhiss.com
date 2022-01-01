@@ -24,7 +24,7 @@ const Home: NextPage = () => {
           <div>
             <p className="section-title">My Skills</p>
             <h2 className="h2">
-              <strong className="text-4xl">Entrepreneurial and driven</strong>
+              <strong className="h2-bold">Entrepreneurial and driven</strong>
               <br /> mobile &amp; web developer
             </h2>
             <p className="subtitle max-w-4xl">
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
           <div>
             <p className="section-title">Open Source</p>
             <h2 className="h2">
-              <strong className="text-4xl">Passionate about </strong>
+              <strong className="h2-bold">Passionate about </strong>
               Open Source <br /> projects and contributions
             </h2>
             <p className="subtitle max-w-3xl">
@@ -109,7 +109,7 @@ const Home: NextPage = () => {
           <div>
             <p className="section-title">About Me</p>
             <h2 className="h2">
-              <strong className="text-4xl">Some things </strong>
+              <strong className="h2-bold">Some things </strong>
               you might not
               <br /> know about me
             </h2>
