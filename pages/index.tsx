@@ -25,7 +25,7 @@ const Home: NextPage = () => {
             <p className="section-title">My Skills</p>
             <h2 className="h2">
               <strong className="h2-bold">Entrepreneurial and driven</strong>
-              <br /> mobile &amp; web developer
+              <br className="hidden sm:block" /> mobile &amp; web developer
             </h2>
             <p className="subtitle max-w-4xl">
               Years of traveling around the world and living in different cities
@@ -67,7 +67,8 @@ const Home: NextPage = () => {
             <p className="section-title">Open Source</p>
             <h2 className="h2">
               <strong className="h2-bold">Passionate about </strong>
-              Open Source <br /> projects and contributions
+              Open Source <br className="hidden sm:block" /> projects and
+              contributions
             </h2>
             <p className="subtitle max-w-3xl">
               I&apos;m looking to get more involved in the Open Source community
@@ -121,7 +122,7 @@ const Home: NextPage = () => {
             <h2 className="h2">
               <strong className="h2-bold">Some things </strong>
               you might not
-              <br /> know about me
+              <br className="hidden sm:block" /> know about me
             </h2>
           </div>
           <div className="md:grid md:grid-cols-2">
