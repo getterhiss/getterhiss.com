@@ -15,14 +15,16 @@ const Hero = () => {
             <strong className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
               React Native developer,{' '}
             </strong>
-            who is excited about &amp;{' '}
+            who is excited about design &amp;{' '}
             <span className="underline decoration-wavy decoration-2 decoration-pink-400">
               TypeScript
             </span>
           </h1>
         </div>
 
-        <SuperWoman className="hidden md:block md:col-span-2 h-full" />
+        <div className="hidden md:block md:col-span-2">
+          <SuperWoman />
+        </div>
       </div>
     </header>
   );
