@@ -27,7 +27,7 @@
   @apply text-xs tracking-widest mb-2 font-bold text-indigo-600 uppercase;
 }
 .subtitle {
-  @apply md:text-lg text-brand leading-8;
+  @apply pb-2 md:pb-6 md:text-lg text-brand leading-8;
 }
 .grid-container {
   @apply mt-10 space-y-10 md:grid md:grid-cols-2 md:space-y-0;
@@ -40,6 +40,9 @@
 }
 .svg-icon {
   @apply inline w-10 h-10 sm:w-12 sm:h-12 lg:w-auto lg:h-auto;
+}
+.svg-wide-icon {
+  @apply inline h-8 w-auto lg:w-auto lg:h-auto;
 }
 
 @tailwind utilities;

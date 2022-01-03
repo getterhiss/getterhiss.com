@@ -6,6 +6,8 @@ import Hero from 'components/Hero';
 import * as SVG from 'icons';
 
 const Home: NextPage = () => {
+  const COLOR = '#808080';
+
   return (
     <>
       <Head>
@@ -106,14 +108,27 @@ const Home: NextPage = () => {
               >
                 View more
               </a>
-              {/* <div>[SVG ICONS]</div> */}
+              <div className="py-6 lg:py-8 space-y-6 lg:space-y-8">
+                <div className="space-x-4 lg:space-x-6">
+                  <SVG.React className="svg-icon" color={COLOR} />
+                  <SVG.Redux className="svg-icon" color={COLOR} />
+                  <SVG.TypeScript className="svg-icon" color={COLOR} />
+                  <SVG.Apple className="svg-icon" color={COLOR} />
+                  <SVG.Android className="svg-icon" color={COLOR} />
+                </div>
+                <div className="space-x-4 lg:space-x-6">
+                  <SVG.Twilio className="svg-wide-icon" />
+                  <SVG.Stripe className="svg-wide-icon" />
+                </div>
+              </div>
             </div>
             <div className="md:pr-12">
               <h3 className="h3">Next.js Website</h3>
               <p className="p">
                 I&apos;ve open sourced this website, a Next.js server-side
-                rendered (SSR) React Application. Includes TypeScript, Tailwind
-                CSS and Google Web Fonts. The website is hosted on Vercel.
+                rendered (SSR) React Application. Includes TypeScript, Redux
+                Toolkit, Tailwind CSS and Google Web Fonts. The website is
+                hosted on Vercel.
               </p>
               <a
                 className="link text-indigo-600 underline pt-4"
@@ -123,7 +138,18 @@ const Home: NextPage = () => {
               >
                 View more
               </a>
-              {/* <div>[SVG ICONS]</div> */}
+              <div className="py-6 lg:py-8 space-y-6 lg:space-y-8">
+                <div className="space-x-4 lg:space-x-6">
+                  <SVG.Next className="svg-icon" color={COLOR} />
+                  <SVG.Tailwind className="svg-icon" color={COLOR} />
+                  <SVG.React className="svg-icon" color={COLOR} />
+                  <SVG.Redux className="svg-icon" color={COLOR} />
+                  <SVG.TypeScript className="svg-icon" color={COLOR} />
+                </div>
+                <div className="space-x-4 lg:space-x-6">
+                  <SVG.Vercel className="svg-wide-icon" />
+                </div>
+              </div>
             </div>
           </div>
         </section>
