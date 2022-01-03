@@ -11,7 +11,7 @@ const SvgComponent = (props: SVGProps<SVGSVGElement>) => (
   >
     <path
       d="M44.215 0H4.785A4.785 4.785 0 0 0 0 4.785v39.43A4.785 4.785 0 0 0 4.785 49h39.43A4.785 4.785 0 0 0 49 44.215V4.785A4.785 4.785 0 0 0 44.215 0Z"
-      fill="#3178C6"
+      fill={props.color || '#3178C6'}
     />
     <path
       fillRule="evenodd"
