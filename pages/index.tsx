@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 import NavBar from 'components/NavBar';
 import Hero from 'components/Hero';
+import * as SVG from 'icons';
 
 const Home: NextPage = () => {
   return (
@@ -20,7 +21,7 @@ const Home: NextPage = () => {
 
         <Hero />
 
-        <section className="py-12 max-w-5xl">
+        <section className="py-6 md:py-10 max-w-5xl">
           <div>
             <p className="section-title">My Skills</p>
             <h2 className="h2">
@@ -46,7 +47,13 @@ const Home: NextPage = () => {
                 processes. I&apos;m excited to write performant code pushing the
                 boundaries of what&apos;s possible.
               </p>
-              {/* <div>[SVG ICONS]</div> */}
+              <div className="space-x-4 py-6 lg:space-x-6 lg:py-8">
+                <SVG.React className="svg-icon" />
+                <SVG.Redux className="svg-icon" />
+                <SVG.TypeScript className="svg-icon" />
+                <SVG.Apple className="svg-icon" />
+                <SVG.Android className="svg-icon" />
+              </div>
             </div>
             <div className="md:pr-12">
               <h3 className="h3">Front-end development</h3>
@@ -57,12 +64,17 @@ const Home: NextPage = () => {
                 (SSR) and API routes that Next.js provides out-of-the-box. Add
                 in Tailwind CSS and now we&apos;re really cooking!
               </p>
-              {/* <div>[SVG ICONS]</div> */}
+              <div className="space-x-4 py-6 lg:space-x-6lg:py-8">
+                <SVG.Next className="svg-icon" />
+                <SVG.Tailwind className="svg-icon" />
+                <SVG.GraphQL className="svg-icon" />
+                <SVG.Figma className="svg-icon" />
+              </div>
             </div>
           </div>
         </section>
 
-        <section className="py-10 max-w-5xl">
+        <section className="py-6 md:py-10 max-w-5xl">
           <div>
             <p className="section-title">Open Source</p>
             <h2 className="h2">
@@ -116,7 +128,7 @@ const Home: NextPage = () => {
           </div>
         </section>
 
-        <section className="py-12">
+        <section className="py-6 md:py-10">
           <div>
             <p className="section-title">About Me</p>
             <h2 className="h2">
@@ -126,7 +138,7 @@ const Home: NextPage = () => {
             </h2>
           </div>
           <div className="md:grid md:grid-cols-2">
-            <div className="pb-4 mb-10 md:mr-14">
+            <div className="pb-4 mb-6 md:mb-10 md:mr-14">
               <h4 className="h4">Do you speak any other languages?</h4>
               <p className="answer">
                 I speak four languages. English, Estonian, Japanese and Russian.
@@ -134,7 +146,7 @@ const Home: NextPage = () => {
                 I&apos;ve also lived in Japan and took Japanese at University.
               </p>
             </div>
-            <div className="pb-4 mb-10 md:mr-14">
+            <div className="pb-4 mb-6 md:mb-10 md:mr-14">
               <h4 className="h4">Where are you currently located?</h4>
               <p className="answer">
                 I&apos;m currently in sunny Southern California, though I have
@@ -143,7 +155,7 @@ const Home: NextPage = () => {
                 the majority of time in Tokyo and Bali.
               </p>
             </div>
-            <div className="pb-4 mb-10 md:mr-14">
+            <div className="pb-4 mb-6 md:mb-10 md:mr-14">
               <h4 className="h4">
                 What do you do when you&apos;re not programming?
               </h4>
@@ -154,7 +166,7 @@ const Home: NextPage = () => {
                 Electric bike all around the city, go for walks in the Zoo.
               </p>
             </div>
-            <div className="pb-4 mb-10 md:mr-14">
+            <div className="pb-4 mb-6 md:mb-10 md:mr-14">
               <h4 className="h4">
                 What would you be doing if you weren&apos;t a software engineer?
               </h4>

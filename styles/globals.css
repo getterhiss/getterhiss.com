@@ -9,7 +9,7 @@
   @apply flex lg:inline-block text-brand text-xs md:text-sm hover:text-indigo-700;
 }
 .h2 {
-  @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif mb-10 text-brand antialiased;
+  @apply text-2xl mb-6 sm:text-3xl md:text-4xl lg:text-5xl font-serif md:mb-10 text-brand antialiased;
 }
 .h2-bold {
   @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl;
@@ -37,6 +37,9 @@
 }
 .answer {
   @apply text-sm text-brand-light max-w-lg leading-6;
+}
+.svg-icon {
+  @apply inline w-10 h-10 sm:w-12 sm:h-12 lg:w-auto lg:h-auto;
 }
 
 @tailwind utilities;
