@@ -1,4 +1,4 @@
-import SuperWoman from 'components/SuperWoman';
+import SuperWoman from 'icons/SuperWoman';
 
 const Hero = () => {
   return (
