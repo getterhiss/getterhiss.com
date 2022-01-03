@@ -50,11 +50,11 @@ const Home: NextPage = () => {
                 boundaries of what&apos;s possible.
               </p>
               <div className="space-x-4 py-6 lg:space-x-6 lg:py-8">
-                <SVG.React className="svg-icon" />
-                <SVG.Redux className="svg-icon" />
-                <SVG.TypeScript className="svg-icon" />
-                <SVG.Apple className="svg-icon" />
-                <SVG.Android className="svg-icon" />
+                <SVG.ReactIcon className="svg-icon" />
+                <SVG.ReduxIcon className="svg-icon" />
+                <SVG.TypeScriptIcon className="svg-icon" />
+                <SVG.AppleIcon className="svg-icon" />
+                <SVG.AndroidIcon className="svg-icon" />
               </div>
             </div>
             <div className="md:pr-12">
@@ -67,10 +67,10 @@ const Home: NextPage = () => {
                 in Tailwind CSS and now we&apos;re really cooking!
               </p>
               <div className="space-x-4 py-6 lg:space-x-6lg:py-8">
-                <SVG.Next className="svg-icon" />
-                <SVG.Tailwind className="svg-icon" />
-                <SVG.GraphQL className="svg-icon" />
-                <SVG.Figma className="svg-icon" />
+                <SVG.NextIcon className="svg-icon" />
+                <SVG.TailwindIcon className="svg-icon" />
+                <SVG.GraphQLIcon className="svg-icon" />
+                <SVG.FigmaIcon className="svg-icon" />
               </div>
             </div>
           </div>
@@ -110,15 +110,15 @@ const Home: NextPage = () => {
               </a>
               <div className="py-6 lg:py-8 space-y-6 lg:space-y-8">
                 <div className="space-x-4 lg:space-x-6">
-                  <SVG.React className="svg-icon" color={COLOR} />
-                  <SVG.Redux className="svg-icon" color={COLOR} />
-                  <SVG.TypeScript className="svg-icon" color={COLOR} />
-                  <SVG.Apple className="svg-icon" color={COLOR} />
-                  <SVG.Android className="svg-icon" color={COLOR} />
+                  <SVG.ReactIcon className="svg-icon" color={COLOR} />
+                  <SVG.ReduxIcon className="svg-icon" color={COLOR} />
+                  <SVG.TypeScriptIcon className="svg-icon" color={COLOR} />
+                  <SVG.AppleIcon className="svg-icon" color={COLOR} />
+                  <SVG.AndroidIcon className="svg-icon" color={COLOR} />
                 </div>
                 <div className="space-x-4 lg:space-x-6">
-                  <SVG.Twilio className="svg-wide-icon" />
-                  <SVG.Stripe className="svg-wide-icon" />
+                  <SVG.TwilioIcon className="svg-wide-icon" />
+                  <SVG.StripeIcon className="svg-wide-icon" />
                 </div>
               </div>
             </div>
@@ -140,14 +140,14 @@ const Home: NextPage = () => {
               </a>
               <div className="py-6 lg:py-8 space-y-6 lg:space-y-8">
                 <div className="space-x-4 lg:space-x-6">
-                  <SVG.Next className="svg-icon" color={COLOR} />
-                  <SVG.Tailwind className="svg-icon" color={COLOR} />
-                  <SVG.React className="svg-icon" color={COLOR} />
-                  <SVG.Redux className="svg-icon" color={COLOR} />
-                  <SVG.TypeScript className="svg-icon" color={COLOR} />
+                  <SVG.NextIcon className="svg-icon" color={COLOR} />
+                  <SVG.TailwindIcon className="svg-icon" color={COLOR} />
+                  <SVG.ReactIcon className="svg-icon" color={COLOR} />
+                  <SVG.ReduxIcon className="svg-icon" color={COLOR} />
+                  <SVG.TypeScriptIcon className="svg-icon" color={COLOR} />
                 </div>
                 <div className="space-x-4 lg:space-x-6">
-                  <SVG.Vercel className="svg-wide-icon" />
+                  <SVG.VercelIcon className="svg-wide-icon" />
                 </div>
               </div>
             </div>

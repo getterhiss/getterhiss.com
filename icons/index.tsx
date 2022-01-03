@@ -1,27 +1,27 @@
-import Android from './Android';
-import Apple from './Apple';
-import Figma from './Figma';
-import GraphQL from './GraphQL';
-import Next from './Next';
-import React from './React';
-import Redux from './Redux';
-import Stripe from './Stripe';
-import Tailwind from './Tailwind';
-import Twilio from './Twilio';
-import TypeScript from './TypeScript';
-import Vercel from './Vercel';
+import AndroidIcon from './Android';
+import AppleIcon from './Apple';
+import FigmaIcon from './Figma';
+import GraphQLIcon from './GraphQL';
+import NextIcon from './Next';
+import ReactIcon from './React';
+import ReduxIcon from './Redux';
+import StripeIcon from './Stripe';
+import TailwindIcon from './Tailwind';
+import TwilioIcon from './Twilio';
+import TypeScriptIcon from './TypeScript';
+import VercelIcon from './Vercel';
 
 export {
-  Android,
-  Apple,
-  Figma,
-  GraphQL,
-  Next,
-  React,
-  Redux,
-  Stripe,
-  Tailwind,
-  Twilio,
-  TypeScript,
-  Vercel,
+  AndroidIcon,
+  AppleIcon,
+  FigmaIcon,
+  GraphQLIcon,
+  NextIcon,
+  ReactIcon,
+  ReduxIcon,
+  StripeIcon,
+  TailwindIcon,
+  TwilioIcon,
+  TypeScriptIcon,
+  VercelIcon,
 };
