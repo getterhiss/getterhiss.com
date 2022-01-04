@@ -1,10 +1,21 @@
 import EmailAddress from 'components/EmailAddress';
+import {
+  MailIcon,
+  ChatIcon,
+  CodeIcon,
+  UserCircleIcon,
+} from '@heroicons/react/solid';
 
 const NavBar = () => {
   return (
     <nav className="space-y-2 lg:space-y-0 lg:space-x-12">
-      <EmailAddress className="link" name="gh" domain="getter" tld="dev" />
-      <a className="link" href="tel:+1 616 883 0158">
+      <div className="link">
+        <MailIcon className="link-icon" />
+        <EmailAddress className="" name="gh" domain="getter" tld="dev" />
+      </div>
+
+      <a className="link" href="sms:+1 646 883 0158">
+        <ChatIcon className="link-icon" />
         +1 646 883 0158
       </a>
       <a
@@ -13,6 +24,7 @@ const NavBar = () => {
         rel="noreferrer"
         target="_blank"
       >
+        <UserCircleIcon className="link-icon" />
         LinkedIn
       </a>
       <a
@@ -21,6 +33,7 @@ const NavBar = () => {
         rel="noreferrer"
         target="_blank"
       >
+        <CodeIcon className="link-icon" />
         Github
       </a>
     </nav>

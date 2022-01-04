@@ -29,6 +29,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 - [Documentation](https://tailwindui.com/documentation)
 - `npm install @headlessui/react @heroicons/react`
+- [Heroicons Library](https://heroicons.com)
 
 ### Added @tailwindcss/forms
 

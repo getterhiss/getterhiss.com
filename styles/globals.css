@@ -6,7 +6,10 @@
 @tailwind components;
 
 .link {
-  @apply flex lg:inline-block text-brand text-xs md:text-sm hover:text-indigo-700;
+  @apply block lg:inline-block text-brand text-xs md:text-sm hover:text-indigo-700;
+}
+.link-icon {
+  @apply w-4 md:w-5 text-brand-light mr-2 md:mb-0.5 inline;
 }
 .h2 {
   @apply text-2xl mb-6 sm:text-3xl md:text-4xl lg:text-5xl font-serif md:mb-10 text-brand antialiased;
