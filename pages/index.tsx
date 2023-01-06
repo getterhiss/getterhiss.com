@@ -175,8 +175,8 @@ const Home: NextPage = () => {
             <div className="pb-4 mb-6 md:mb-10 md:mr-14">
               <h4 className="h4">Where are you currently located?</h4>
               <p className="answer">
-                I&apos;m currently in sunny Southern California, though I have
-                lived all over. Originally from Europe, I&apos;ve lived in
+                I&apos;m currently in Denver, though I have
+                lived all over. Before Colorado, I was in California. Originally from Europe, I&apos;ve lived in
                 Tallinn and Barcelona. I&apos;ve also spent years in Asia with
                 the majority of time in Tokyo and Bali.
               </p>
@@ -189,7 +189,8 @@ const Home: NextPage = () => {
                 I love to rock climb! It helps me get into a flow state and get
                 outside my own thoughts, otherwise I can&apos;t stop thinking
                 about code (It&apos;s like the Matrix). I also love to ride an
-                Electric bike all around the city, go for walks in the Zoo.
+                Electric bike all around the city, and recently been alpine skiing 
+                in the Rockies with our recent move to Colorado.
               </p>
             </div>
             <div className="pb-4 mb-6 md:mb-10 md:mr-14">
