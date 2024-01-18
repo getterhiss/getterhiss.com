@@ -11,11 +11,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Getter Hiss | React Native Developer | iOS and Android</title>
-        <meta
-          name="description"
-          content="Entrepreneurial and driven React Native Developer."
-        />
+        <title>Getter Hiss | React Native Tech Lead | iOS and Android</title>
+        <meta name="description" content="Entrepreneurial and driven React Native Tech Lead." />
       </Head>
 
       <div className="max-w-7xl py-5 px-4 mx-auto lg:px-12">
@@ -28,26 +25,24 @@ const Home: NextPage = () => {
             <p className="section-title">My Skills</p>
             <h2 className="h2">
               <strong className="h2-bold">Entrepreneurial and driven</strong>
-              <br className="hidden sm:block" /> mobile &amp; web developer
+              <br className="hidden sm:block" /> React Native developer
             </h2>
             <p className="subtitle max-w-4xl">
-              Years of traveling around the world and living in different cities
-              around Asia, Europe and North America has given me the ability to
-              quickly adjust to new situations and learn on the go. I enjoy
-              working with people that are passionate, curious and creative
-              (with a sense of humor) just like me. I am open for positions
-              where I can make an impact, including founding/leading roles.
+              Years of traveling around the world and living in different cities around Asia, Europe
+              and North America has given me the ability to quickly adjust to new situations and
+              learn on the go. I enjoy working with people that are passionate, curious and creative
+              (with a sense of humor) just like me. I am open for positions where I can make an
+              impact, including founding/leading roles.
             </p>
           </div>
           <div className="grid-container">
             <div className="md:pr-12">
               <h3 className="h3">Mobile development</h3>
               <p className="p">
-                I have extensive knowledge as a Sr. React Native Developer of
-                the entire iOS and Android ecosystems. From dealing in Native
-                code, to each respective App Store submission and approval
-                processes. I&apos;m excited to write performant code pushing the
-                boundaries of what&apos;s possible.
+                I have extensive knowledge as a Sr. React Native Developer of the entire iOS and
+                Android ecosystems. From dealing in Native code, to each respective App Store
+                submission and approval processes. I&apos;m excited to write performant code pushing
+                the boundaries of what&apos;s possible.
               </p>
               <div className="space-x-4 py-6 lg:space-x-6 lg:py-8">
                 <SVG.ReactIcon className="svg-icon" />
@@ -60,10 +55,9 @@ const Home: NextPage = () => {
             <div className="md:pr-12">
               <h3 className="h3">Front-end development</h3>
               <p className="p">
-                At my core, I am a React fanatic. So makes sense I&apos;d love
-                Next.js as well. I&apos;ve dabbled in Gatsby and of course
-                vanilla React apps, but nothing beats the server-side rendering
-                (SSR) and API routes that Next.js provides out-of-the-box. Add
+                At my core, I am a React fanatic. So makes sense I&apos;d love Next.js as well.
+                I&apos;ve dabbled in Gatsby and of course vanilla React apps, but nothing beats the
+                server-side rendering (SSR) and API routes that Next.js provides out-of-the-box. Add
                 in Tailwind CSS and now we&apos;re really cooking!
               </p>
               <div className="space-x-4 py-6 lg:space-x-6lg:py-8">
@@ -81,31 +75,27 @@ const Home: NextPage = () => {
             <p className="section-title">Open Source</p>
             <h2 className="h2">
               <strong className="h2-bold">Passionate about </strong>
-              Open Source <br className="hidden sm:block" /> projects and
-              contributions
+              Open Source <br className="hidden sm:block" /> projects and contributions
             </h2>
             <p className="subtitle max-w-3xl">
-              I&apos;m looking to get more involved in the Open Source community
-              in a big way. I&apos;ve been working on open sourcing my own
-              bigger projects including some smaller TypeScript / React / React
-              Native libraries.
+              As a beneficiary of the Open Source community I try to contribute as much as possible.
+              I&apos;ve been working on open sourcing my own bigger projects including some smaller
+              TypeScript / React / React Native libraries.
             </p>
           </div>
           <div className="grid-container">
             <div className="md:pr-12">
               <h3 className="h3">React Native</h3>
               <p className="p">
-                I&apos;ve open sourced a fun personal project Getter.dev, an iOS
-                and Android application built on React Native. Includes
-                TypeScript, Lottie, Twilio Video (WebRTC), React Error
-                Boundaries &amp; React Navigation.
+                I&apos;ve open sourced a fun personal project Getter.dev, an iOS and Android
+                application built on React Native. Includes TypeScript, Lottie, Twilio Video
+                (WebRTC), React Error Boundaries &amp; React Navigation.
               </p>
               <a
                 className="link text-indigo-600 underline pt-4"
                 href="https://github.com/getterhiss/getter.dev"
                 rel="noreferrer"
-                target="_blank"
-              >
+                target="_blank">
                 View more
               </a>
               <div className="py-6 lg:py-8 space-y-6 lg:space-y-8">
@@ -125,17 +115,15 @@ const Home: NextPage = () => {
             <div className="md:pr-12">
               <h3 className="h3">Next.js Website</h3>
               <p className="p">
-                I&apos;ve open sourced this website, a Next.js server-side
-                rendered (SSR) React Application. Includes TypeScript, Redux
-                Toolkit, Tailwind CSS and Google Web Fonts. The website is
-                hosted on Vercel.
+                I&apos;ve open sourced this website, a Next.js server-side rendered (SSR) React
+                Application. Includes TypeScript, Redux Toolkit, Tailwind CSS and Google Web Fonts.
+                The website is hosted on Vercel.
               </p>
               <a
                 className="link text-indigo-600 underline pt-4"
                 href="https://github.com/getterhiss/getterhiss.com"
                 rel="noreferrer"
-                target="_blank"
-              >
+                target="_blank">
                 View more
               </a>
               <div className="py-6 lg:py-8 space-y-6 lg:space-y-8">
@@ -167,43 +155,45 @@ const Home: NextPage = () => {
             <div className="pb-4 mb-6 md:mb-10 md:mr-14">
               <h4 className="h4">Do you speak any other languages?</h4>
               <p className="answer">
-                I speak four languages. English, Estonian, Japanese and Russian.
-                I was born in Estonia, but lived in England when I was 5.
-                I&apos;ve also lived in Japan and took Japanese at University.
+                I speak four languages. English, Estonian, Japanese and Russian. I was born in
+                Estonia, but lived in England when I was 5. I&apos;ve also lived in Japan and took
+                Japanese at University.
               </p>
             </div>
             <div className="pb-4 mb-6 md:mb-10 md:mr-14">
               <h4 className="h4">Where are you currently located?</h4>
               <p className="answer">
-                I&apos;m currently in Denver, though I have
-                lived all over. Before Colorado, I was in California. Originally from Europe, I&apos;ve lived in
-                Tallinn and Barcelona. I&apos;ve also spent years in Asia with
+                I am based on the West Coast, though have lived all over. Originally from Europe,
+                I&apos;ve lived in Tallinn and Barcelona. I&apos;ve also spent years in Asia with
                 the majority of time in Tokyo and Bali.
               </p>
             </div>
             <div className="pb-4 mb-6 md:mb-10 md:mr-14">
-              <h4 className="h4">
-                What do you do when you&apos;re not programming?
-              </h4>
+              <h4 className="h4">What do you do when you&apos;re not programming?</h4>
               <p className="answer">
-                I love to rock climb! It helps me get into a flow state and get
-                outside my own thoughts, otherwise I can&apos;t stop thinking
-                about code (It&apos;s like the Matrix). I also love to ride an
-                Electric bike all around the city, and recently been alpine skiing 
-                in the Rockies with our recent move to Colorado.
+                Anything that gets me into a flow state! I love to rock climb and ride my e-bike
+                around the city. We spent the last year in Denver, CO, so I had the opportunity to
+                take advantage of an entire season skiing in the Rockies.
               </p>
             </div>
             <div className="pb-4 mb-6 md:mb-10 md:mr-14">
+              <h4 className="h4">Any recent achievements that you&apos;re proud of?</h4>
+              <p className="answer">
+                I like to do things that get me out of my comfort zone. Challenges, such as
+                obtaining my PADI Open Water Scuba Diver license, ASA Skipper Sailing license, and a
+                motorcycle license have helped me overcome many of my fears.
+              </p>
+            </div>
+            {/* <div className="pb-4 mb-6 md:mb-10 md:mr-14">
               <h4 className="h4">
                 What would you be doing if you weren&apos;t a software engineer?
               </h4>
               <p className="answer">
-                If I didn&apos;t have a strong desire to pursue a career in
-                STEM, I probably would&apos;ve become a ballerina. I danced
-                since I was 3 years old and even went to a professional ballet
-                school when I was young.
+                If I didn&apos;t have a strong desire to pursue a career in STEM, I probably
+                would&apos;ve become a ballerina. I danced since I was 3 years old and even went to
+                a professional ballet school when I was young.
               </p>
-            </div>
+            </div> */}
           </div>
         </section>
 
