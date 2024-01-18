@@ -11,8 +11,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Getter Hiss | React Native Tech Lead | iOS and Android</title>
-        <meta name="description" content="Entrepreneurial and driven React Native Tech Lead." />
+        <title>Getter Hiss | Mobile Tech Lead | iOS and Android</title>
+        <meta name="description" content="Entrepreneurial and driven Mobile Tech Lead." />
       </Head>
 
       <div className="max-w-7xl py-5 px-4 mx-auto lg:px-12">
