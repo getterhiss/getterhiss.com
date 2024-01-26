@@ -13,7 +13,7 @@ const Hero = () => {
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif mb-10 text-brand antialiased">
             <strong className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
-              Mobile tech lead,{' '}
+              Lead Mobile Engineer,{' '}
             </strong>
             passionate about UI/UX design &amp;{' '}
             <span className="underline decoration-wavy decoration-2 decoration-pink-400">
