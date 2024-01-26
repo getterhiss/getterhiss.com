@@ -25,7 +25,7 @@ const Home: NextPage = () => {
             <p className="section-title">My Skills</p>
             <h2 className="h2">
               <strong className="h2-bold">Entrepreneurial and driven</strong>
-              <br className="hidden sm:block" /> React Native developer
+              <br className="hidden sm:block" /> software developer
             </h2>
             <p className="subtitle max-w-4xl">
               Years of traveling around the world and living in different cities around Asia, Europe
